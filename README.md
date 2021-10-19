@@ -47,28 +47,6 @@ Following are some awesome features offered by this bot:-
 ## For Heroku users New repo will come after Is Free and Availble .. (But This repo will work on heroku)
 [![Deploy](https://telegra.ph/file/e7d224c45cf1d106a28fa.png)](heroku-deployment.md)
 
-Environment Variables
-🔴Required Environmental Variables... MUST BE GIVEN.... This Required ENV var is for Heroku Deployment only
-Variable	Value	Example	Required	Description
-HEROKU_EMAIL	Heroku email	abc@abc.com	True	Just Give the email you used for Heroku Account
-HEROKU_API_KEY	Heroku API key	xxxxxxx-xxxx-xxxx-xxxx-xxxxxx	True	Get it from Heroku
-HEROKU_APP_NAME	Heroku app name	Name Must be unique	True	Heroku app name that needs to be Updated or Created (Should be in lowercase)
-BOT_TOKEN	Telegram Bot Token	your telegram bot api key/token	True	Create a bot using @BotFather, and get the API token.
-API_ID	Telegram API_ID	Your TG account's API_ID	True	Get this value from TELEGRAM.
-API_HASH	Telegram API_HASH	Your TG account's API_HASH	True	Get this value from TELEGRAM.
-OWNER_ID	TG account's ID	Your TG account's ID	True	ID of the bot owner, He/she can be abled to access bot in bot only mode too(private mode).
-ALD_USR	Authorized Chats	Your Group Chats ID + admins/owners id	True	Create a Super Group in Telegram, add @missrose_bot to the group, and send /id in the chat, to get this value. you can aswell add owner id/add by 1 space for some extra permissions....
-BASE_URL_OF_BOT	Heroku App name web url	https://appname.herokuapp.com	True	put entire appname url from Heroku_APP_NAME note: - the app doesnt need to be created just in appname above replace the name you gave in HEROKU_APP_NAME....
-note:- the Postgres "DATABASE_URL" var will need to be added manually after deployment is done....go to https://elements.heroku.com/addons/heroku-postgresql and add it to your deployed app or else bot will crash and wont work..
-Not Required Environment Variables..Click Here..
-IF YOU WANT TO SET optional vars then go to your deployed heroku app settings and add the vars ...
-
-DONT TOUCH/EDIT ANY VARS FROM HEROKU if want to change/edit do from Github...
-IF YOU WANT TO SET optional vars then go to your deployed heroku app settings and add the vars ...
-
-
-
-
 ## ***Zeet***
 According to me, this platform provides resources that are enough for a genuine user and by default prevents Abuse:
 Click the logo to see the video guide to see how to deploy. The web is not yet available but soon will be available on Zeet.
