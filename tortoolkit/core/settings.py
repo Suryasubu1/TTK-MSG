@@ -30,7 +30,7 @@ no = "❌"
 yes = "✅"
 # Central object is not used its Acknowledged
 tordb = TorToolkitDB()
-header = '<b>TTK-MSG by <a href="https://github.com/msgcreations/TTK-MSG">MSGCREATIONS</a></b>\n<u>ADMIN SETTINGS MENU - Beta v1</u>'
+header = '<b>TorToolKitX by <a href="https://github.com/msgcreations/TTK-MSG">MSGCREATIONS</a></b>\n<u>ADMIN SETTINGS MENU - Beta v1</u>'
 
 
 async def handle_setting_callback(e):
